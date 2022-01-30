@@ -9,7 +9,7 @@ NO_WALLET ?=
 NO_ZMQ ?=
 NO_UPNP ?=
 NO_RUST ?=
-FALLBACK_DOWNLOAD_PATH ?= https://depends.rebelcoin.org
+FALLBACK_DOWNLOAD_PATH ?= https://bitcoincore.org/depends-sources
 
 BUILD = $(shell ./config.guess)
 HOST ?= $(BUILD)
